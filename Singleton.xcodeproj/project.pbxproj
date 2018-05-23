@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		189776AF20B5063000AB73DF /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 189776AE20B5063000AB73DF /* Person.m */; };
+		189776B320B50AE400AB73DF /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 189776B220B50AE400AB73DF /* Student.m */; };
 		7E00F4371CD740D7002CF8A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E00F4361CD740D7002CF8A1 /* main.m */; };
 		7E00F43A1CD740D7002CF8A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E00F4391CD740D7002CF8A1 /* AppDelegate.m */; };
 		7E00F43D1CD740D7002CF8A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E00F43C1CD740D7002CF8A1 /* ViewController.m */; };
@@ -16,6 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		189776AD20B5063000AB73DF /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		189776AE20B5063000AB73DF /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		189776B020B5074500AB73DF /* ANSingletion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANSingletion.h; sourceTree = "<group>"; };
+		189776B120B50AE400AB73DF /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		189776B220B50AE400AB73DF /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 		7E00F4321CD740D7002CF8A1 /* Singleton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Singleton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E00F4361CD740D7002CF8A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7E00F4381CD740D7002CF8A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +69,11 @@
 				7E00F4391CD740D7002CF8A1 /* AppDelegate.m */,
 				7E00F43B1CD740D7002CF8A1 /* ViewController.h */,
 				7E00F43C1CD740D7002CF8A1 /* ViewController.m */,
+				189776AD20B5063000AB73DF /* Person.h */,
+				189776AE20B5063000AB73DF /* Person.m */,
+				189776B120B50AE400AB73DF /* Student.h */,
+				189776B220B50AE400AB73DF /* Student.m */,
+				189776B020B5074500AB73DF /* ANSingletion.h */,
 				7E00F43E1CD740D7002CF8A1 /* Main.storyboard */,
 				7E00F4411CD740D7002CF8A1 /* Assets.xcassets */,
 				7E00F4431CD740D7002CF8A1 /* LaunchScreen.storyboard */,
@@ -110,6 +122,7 @@
 				TargetAttributes = {
 					7E00F4311CD740D7002CF8A1 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = CLNA2JLHF6;
 					};
 				};
 			};
@@ -151,6 +164,8 @@
 			files = (
 				7E00F43D1CD740D7002CF8A1 /* ViewController.m in Sources */,
 				7E00F43A1CD740D7002CF8A1 /* AppDelegate.m in Sources */,
+				189776B320B50AE400AB73DF /* Student.m in Sources */,
+				189776AF20B5063000AB73DF /* Person.m in Sources */,
 				7E00F4371CD740D7002CF8A1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +280,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLNA2JLHF6;
 				INFOPLIST_FILE = Singleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anchlate.Singleton;
@@ -276,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLNA2JLHF6;
 				INFOPLIST_FILE = Singleton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anchlate.Singleton;
@@ -302,6 +319,7 @@
 				7E00F44B1CD740D7002CF8A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
